@@ -6,31 +6,112 @@
 
   <title>The HTML5 Herald</title>
   <meta name="description" content="The HTML5 Herald">
-  <meta name="author" content="SitePoint">
+  <meta name="Lovers" content="wedding">
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="css/wedding.css">
+  <link href="https://fonts.googleapis.com/css?family=Alex+Brush" rel="stylesheet">
 </head>
-
 <body>
-	<div class="container">
-		<h1> Nadpis </h1>
-		<div class="row">
-			<div class="col-lg-6 col-md-10">
-				<p class="lead">
-					Ahoj, potrebujem najst stlpec
-				</p>
+ <nav class="navbar navbar-expand-md navbar-light bg fixed-top">
+      <a class="navbar-brand" href="#">Wedding</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <ul class="nav nav-pills">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Časová os vzťahu <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Quiz</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pricing</a>
+          </li>
+        </ul>
+      </div>
+  </nav>
+<div class="container">
+    <div class="row header">
+      <div class="col-lg-5">
+				<h1 class="text-center">
+					Marcela Kajanová
+        </h1>
+      </div>
+      <div class="col-lg-2">
+        <h1 class="text-center">
+          &
+        </h1>
+      </div>
+      <div class="col-lg-5">
+        <h1 class="text-center">
+          Ing. Jakub Kajan
+        </h1>
+      </div>
+    </div>
+		<div class="row information">
+			<div class="col-lg-5 offset-lg-1">
+        <div class="text-center photo">
+         <img src="images/manzelka.jpg" class="rounded">
+        </div>
+        <p class="lead">
+          Študuje odbor Mediamatika a kultúrne dedičstvo na Žilinskej univerzite. V súkromí sa venuje grafike a ručným prácam. Je taktiež horlivou študentkou programovania.
+          Prežíva šťastné chvíle po boku svojho manžela.
+        </p>
 			</div>
-
-			<div class="col-lg-6 col-md-2">
-				<p class="text-primary">
-					Ahoj, potrebujem najst stlpec
-				</p>
-			</div>
+			<div class="col-lg-5">
+        <div class="text-center photo">
+         <img src="images/manzel.jpg" class="rounded">
+        </div>
+        <p class="lead">
+          Vyštudoval odbor Inteligentné systémy na Technickej univerzite v Košiciach. V súčastnosti pôsobí ako softvérový developer v Siemens Healthineers pre oblasť radiačnej onkológie.
+          Zaujíma sa o umelú inteligenciu a webové technológie. V oblasti lásky sa mu taktiež darí, kedže našiel lásku svojho života v podobe Marcely Kajanovej.
+        </p>
+      </div>
 		</div>
-    <button class="btn btn-warning btn-lg">Push me!</button>
+    <div class="row timeline">
+      <div class="col-12 text-center">
+        <h1>
+         Časová os vzťahu
+        </h1>
+      </div>
+      <div class="offset-lg-5 col-lg-4">
+          <ul class="list-unstyled lead">
+            <li><span class="fa fa-heart"></span>21. 5. 2016- Začiatok vzťahu</li>
+            <li><span class="fa fa-heart"></span>21. 5. 2017- Zásnuby</li>
+            <li><span class="fa fa-heart"></span>9. 12. 2017- Svadba</li>
+          </ul>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 text-center">
+        <h1>
+         Quiz
+        </h1>
+      </div>
+    </div>
+    <div class="row footer">
+      <div class="offset-2 col-5 lead">
+        Marcela
+        <ul class="list-unstyled">
+          <li><span class="fa fa-linkedin"></span><a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile"><button class="btn btn-sm">Linkedin</button></a></li>
+          <li><span class="fa fa-github"></span><a href="https://github.com/Macike"><button class="btn btn-sm">Github</button></a></li>
+          <li><span class="fa fa-instagram"></span><a href="https://github.com/Macike"><button class="btn btn-sm">Instagram</button></a></li>
+      </div>
+      <div class="offset-1 col-4 lead">
+        Jakub
+        <ul class="list-unstyled">
+          <li><span class="fa fa-linkedin"></span><a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile"><button class="btn btn-sm">Linkedin</button></a></li>
+          <li><span class="fa fa-github"></span><a href="https://github.com/Viceriel"><button class="btn btn-sm">Github</button></a></li>
+          <li><span class="fa fa-stack-overflow"></span><a href="https://stackoverflow.com/users/6706356/viceriel"><button class="btn btn-sm">StackOferflow</button></a></li>
+          <li><span class="fa fa-codepen"></span><a href="https://codepen.io/viceriel/"><button class="btn btn-sm">Codepen</button></a></li>
+      </div>
+    </div>
+    </div>
 	</div>
 </body>
 </html>

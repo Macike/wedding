@@ -1,9 +1,64 @@
+.navbar-brand{
+position: fixed;
+top: 1%;
+padding: 0px;
+margin: 0px;
+}
+
+.bg{
+  background-color: #00004d;
+}
+
 .container{
   max-width: 950px;
   background-color: white;
 }
 
+.footer{
+background-color: #00004d;
+color: #f2f2f2;
+}
+
+.photo img{
+  max-width: 100%;
+  max-height: 200px;
+}
+
 body
 {
-  background-color: silver;
+  background-color: #000080;
+  padding-top: 100px;
+}
+
+.header{
+  background: linear-gradient(to bottom, #f9e39a 0%,#fccb06 100%);
+  padding-bottom: 100px;
+  padding-top: 100px;
+  font-family: 'Alex Brush', cursive;
+  color: #800000;
+}
+
+.information{
+  padding-bottom: 100px;
+  padding-top: 100px;
+}
+
+li{
+  padding-bottom: 1.5rem;
+}
+
+.list-unstyled span{
+  margin-right: 2rem;
+}
+
+.footer li{
+  padding-bottom: 0.5rem;
+}
+
+.footer .list-unstyled span{
+  margin-right: 1rem;
+}
+
+.timeline h1{
+  margin-bottom: 2rem;
 }
