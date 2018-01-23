@@ -29,10 +29,13 @@ margin: 0px;
 }
 
 .footer{
-background-color: #00004d;
+background-color: #1e1e5e;
 color: #f2f2f2;
 margin: 0px;
 padding: 0px;
+min-height: 27em;
+display: flex;
+align-items: center;
 }
 
 .photo img{
@@ -87,7 +90,16 @@ li{
 }
 
 .timeline h1{
+  margin-bottom: 5rem;
+}
+
+.card h1{
   margin-bottom: 2rem;
+  margin-top: 4rem;
+}
+
+.card .row .question{
+margin-top: 4em;
 }
 
 .photo2{
@@ -107,6 +119,8 @@ li{
 .row{
   margin:0;
 }
+
+
 .container-fluid .row p{
   padding-top: 16rem;
 }
