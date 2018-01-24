@@ -32,3 +32,15 @@ let btnService = ()=>
 }
 
 window.addEventListener("load", btnService, false);
+
+let counter = ()=>
+{
+  let d1 = new Date();
+  let d2 = new Date(2017, 11, 9, 17, 0, 0, 0);
+  let utc_milis1 = d1.getTime();
+  let utc_milis2 = d2.getTime();
+  let result= (utc_milis1 - utc_milis2);
+  result /= (1000*60*60*24);
+  alert(result);
+}
+counter();
